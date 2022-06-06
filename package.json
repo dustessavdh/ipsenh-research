@@ -1,0 +1,34 @@
+{
+  "name": "ipsenh-research",
+  "version": "1.0.0",
+  "description": "Contains code used for my research paper for my univeristy",
+  "dependencies": {
+    "arithmetic-coding": "^1.2.3",
+    "fast-rle": "^0.0.1",
+    "huffman-ts": "^0.1.3",
+    "lzjs": "^1.3.0"
+  },
+  "devDependencies": {
+    "@types/node": "^17.0.40",
+    "ts-loader": "^9.3.0",
+    "ts-node": "^10.8.1",
+    "tsc": "^2.0.4",
+    "tsconfig-paths": "^4.0.0",
+    "typescript": "^4.7.3"
+  },
+  "scripts": {
+    "start": "ts-node src/main.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dusthijsvdh/ipsenh-research.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dusthijsvdh/ipsenh-research/issues"
+  },
+  "homepage": "https://github.com/dusthijsvdh/ipsenh-research#readme"
+}
