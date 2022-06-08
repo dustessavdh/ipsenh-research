@@ -8,7 +8,7 @@ To run this benchmark follow the instructions below.
 
 1. Make sure you have installed node an npm and tsc.
 2. Download the following files to the `assets` folder:
-   - <https://ipsenh-research.web-files.co/djDl-eClvfGgfnfJsPI2N.jpg>
+   - <https://ipsenh-research.web-files.co/a8xMOMBDX_2Sl_7QfntTp.jpg>
    - <https://ipsenh-research.web-files.co/8OZ-RJC-yZT2aXqwxBitp.png>
    - <https://ipsenh-research.web-files.co/_NH93NAaoe42O0RAU6X1L.png>
    - <https://ipsenh-research.web-files.co/VCLJ-H40oh0xX-5_msJnM.png>
