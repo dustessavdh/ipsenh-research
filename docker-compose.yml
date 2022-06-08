@@ -1,0 +1,10 @@
+version: '3.3'
+services:
+  ipsenh_research:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    networks:
+      - default
+    volumes:
+      - ./:/usr/app/
