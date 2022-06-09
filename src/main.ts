@@ -10,7 +10,7 @@ import cliProgress from 'cli-progress';
 import colors from 'ansi-colors';
 
 const performanceService = PerformanceService.getInstance();
-const testAmount = 1000;
+const testAmount = 500;
 const imageArray: Array<Record<string, any>> = [];
 const methodArray: Array<Benchmark> = [];
 
