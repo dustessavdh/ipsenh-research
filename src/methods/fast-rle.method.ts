@@ -1,6 +1,6 @@
 import { Benchmark } from 'src/interfaces/benchmark.interface';
 import { PerformanceService } from 'src/services/performance.service';
-import encode from 'fast-rle/decode';
+import encode from 'fast-rle/encode';
 import { performance } from 'perf_hooks';
 import { sizeof } from 'sizeof';
 import { BenchmarkDataType } from 'src/types/benchmark-data.type';
@@ -16,11 +16,12 @@ export class FastRleMethod implements Benchmark {
     this.performanceService.startAverageCPULoadMeasurement();
 
     // Encoding
-    const encoded = encode(image.data);
+    let encoded: any = encode(image.data);
 
     const endTime = performance.now();
     const averageCPULoad = this.performanceService.getAverageCPULoad();
 
+    encoded = encoded.join('');
     return {
       name: image.name,
       oldSize: sizeof(image.data),
