@@ -39,13 +39,13 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/dusthijsvdh/ipsenh-research.git"
+    "url": "git+https://github.com/dustessavdh/ipsenh-research.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/dusthijsvdh/ipsenh-research/issues"
+    "url": "https://github.com/dustessavdh/ipsenh-research/issues"
   },
-  "homepage": "https://github.com/dusthijsvdh/ipsenh-research#readme"
+  "homepage": "https://github.com/dustessavdh/ipsenh-research#readme"
 }
